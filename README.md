@@ -1,5 +1,4 @@
 # Hi, I'm Zahan
-
 **Computer Engineering Student | Embedded Systems & AI/ML Enthusiast**
 
 ---
@@ -14,13 +13,9 @@
 
 ### Technical Skills
 **Languages:** Python, C/C++, JavaScript, MATLAB
-
 **Embedded/Robotics:** Arduino, Raspberry Pi 5, PIC18F452, ESP32, NI myRIO/LabVIEW
-
 **AI/ML:** YOLOv8, U-Net (segmentation), Transfer Learning, OpenCV
-
 **Web/Backend:** Flask, SQLite, Bootstrap 5
-
 **Tools:** Git
 
 ---
@@ -30,6 +25,10 @@
 **AI-Powered Smart Security & Home Automation** (Final Year Project)
 - Real-time surveillance system using Raspberry Pi 5, YOLOv8 object detection, cloud facial recognition, and LLM-based alerts
 - FYP-I complete, FYP-II in progress
+
+**PPE Detection System**
+- Fine-tuned YOLOv8n on a labeled 10-class PPE dataset, iterating on training (40 + 10 epochs) after evaluating per-class precision/recall
+- Built a custom OpenCV pipeline for real-time bounding box detection, deployed via a Flask web app for image/video upload and inference
 
 **U-Net Image Segmentation**
 - Built with ResNet34 backbone (segmentation_models_pytorch) trained on a COCO subset
