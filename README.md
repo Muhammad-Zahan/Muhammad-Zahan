@@ -23,18 +23,26 @@
 ### Featured Projects
 
 **AI-Powered Smart Security & Home Automation** (Final Year Project)
-- Real-time surveillance system using Raspberry Pi 5, YOLOv8 object detection, cloud facial recognition, and LLM-based alerts
-- FYP-I complete, FYP-II in progress
+-Real-time surveillance system combining computer vision, cloud recognition, and LLM-based automation on embedded hardware.
+- Designed system architecture combining YOLOv8 object/person detection, cloud-based facial recognition, and LLM-generated alerts, deployed on Raspberry Pi 5
+- Status: FYP-I complete and defended ✅ | FYP-II in progress 🚧
+`YOLOv8` `Raspberry Pi 5` `Facial Recognition` `LLM Integration`
 
 **PPE Detection System**
-- Fine-tuned YOLOv8n on a labeled 10-class PPE dataset, iterating on training (40 + 10 epochs) after evaluating per-class precision/recall
-- Built a custom OpenCV pipeline for real-time bounding box detection, deployed via a Flask web app for image/video upload and inference
+End-to-end computer vision pipeline for detecting personal protective equipment compliance in real time.
+- Fine-tuned a YOLOv8n model on a labeled 10-class PPE dataset, using an iterative approach (40 epochs → evaluated per-class precision/recall → 10 more epochs of targeted fine-tuning)
+- Built a custom OpenCV pipeline for bounding box detection on images/video, deployed via a Flask web app with upload-and-detect functionality
+`YOLOv8` `OpenCV` `Flask` `Object Detection`
 
 **U-Net Image Segmentation**
-- Built with ResNet34 backbone (segmentation_models_pytorch) trained on a COCO subset
+Pixel-level human body segmentation model.
+- Built with a pretrained ResNet34 encoder (via `segmentation_models_pytorch`), trained on a ~2,500-image COCO subset with data augmentation
+`PyTorch` `U-Net` `ResNet34` `COCO Dataset`
 
 **Line-Following / Maze-Solving Robot**
-- Arduino-based robot using PID control, TCRT5000 sensors, and L298N motor driver
+Autonomous PID-controlled robot for line-following and maze navigation.
+- Arduino Uno + TCRT5000 IR sensors + L298N motor driver for closed-loop control
+`Arduino Uno` `PID Control` `TCRT5000` `L298N`
 
 ---
 
