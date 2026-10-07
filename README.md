@@ -1,66 +1,148 @@
-# Hi, I'm Zahan
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,100:2c5364&height=170&section=header&text=Hi,%20I'm%20Zahan&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38" width="100%" />
 
-**Embedded Systems, Computer Vision & Local AI**
+<h3 align="center">Embedded Systems | Computer Vision | Local AI</h3>
 
----
-
-### About Me
-- Background in embedded systems and computer vision
-- Currently building an AI-powered security system as my final year project
-- Exploring how small language models run on everyday hardware (laptop CPU, edge devices)
-- Also do freelance work in logo design and website customization
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=YOUR_USERNAME&label=Profile%20views&color=0e75b6&style=flat" />
+  <img src="https://img.shields.io/badge/Based%20in-Islamabad-1f6feb?style=flat&logo=googlemaps&logoColor=white" />
+  <img src="https://img.shields.io/badge/Open%20to-Internships-2ea043?style=flat" />
+</p>
 
 ---
 
-### Technical Skills
-**Languages:** Python, C/C++, JavaScript, MATLAB
-**Embedded:** Arduino, Raspberry Pi 5, PIC18F452, ESP32, NI myRIO/LabVIEW
-**AI/ML:** YOLOv8, U-Net, Transfer Learning, OpenCV
-**Local LLMs:** OpenVINO GenAI, Ollama, Qwen 2.5, Gemma 3, FP16/INT8/INT4 quantization
-**Web/Backend:** Flask, SQLite, Bootstrap 5, Gmail API
-**Tools:** Git
+## 👨‍💻 About Me
+- 🔧 Background in **embedded systems** and **computer vision**
+- 🛡️ Currently building an AI-powered security system as my final year project
+- 🧠 Exploring how small language models run on everyday hardware (laptop CPU, edge devices)
+- 🎨 Freelance work in logo design and website customization
 
 ---
 
-### Featured Projects
+## 🚀 Final Year Project
 
-**Running Qwen 2.5 (1.5B, FP16) on a Laptop CPU**
-Ran a small language model fully on CPU with no GPU, using OpenVINO GenAI.
-- Measured speed: about 7.9 tokens/sec with 834 ms time to first token (FP16)
-- Tuned generation quality with temperature, top_p, top_k and prompt window settings
-- Also tested INT8 and INT4 versions, and Gemma 3 1B for comparison
-`OpenVINO` `Qwen 2.5` `Quantization` `Python`
-
-**Local AI Email Classifier** (in progress)
-Reads my Gmail and marks each email as IMPORTANT or NOT IMPORTANT, with a short reason. Everything runs locally.
-- Connects to Gmail with read-only OAuth, extracts sender, subject, date and decoded body
-- Flask API (`/analyze`) checks for urgent keywords first, and only calls the Qwen model when no keyword matches
-`Gmail API` `Flask` `OpenVINO` `Qwen 2.5`
-
-**AI-Powered Smart Security & Home Automation** (Final Year Project)
+### AI-Powered Smart Security & Home Automation
 Real-time surveillance system combining computer vision, cloud recognition and LLM-based automation on embedded hardware.
-- Designed the architecture: YOLOv8 person/object detection, cloud-based facial recognition and LLM-generated alerts, deployed on Raspberry Pi 5
-- Status: FYP-I complete and defended ✅ | FYP-II in progress 🚧
-`YOLOv8` `Raspberry Pi 5` `Facial Recognition` `LLM Integration`
 
-**PPE Detection System**
-End-to-end computer vision pipeline for checking protective equipment compliance in real time.
-- Fine-tuned YOLOv8n on a labeled 10-class PPE dataset: 40 epochs, then checked per-class precision/recall, then 10 more epochs of targeted fine-tuning
-- Built a custom OpenCV pipeline for bounding boxes on images and video, served through a Flask app with upload-and-detect
-`YOLOv8` `OpenCV` `Flask` `Object Detection`
+- 🎯 **YOLOv8** person/object detection on the edge
+- 🙂 **Cloud-based facial recognition** for identifying people
+- 💬 **LLM-generated alerts** so notifications are readable, not raw logs
+- 🖥️ Deployed on **Raspberry Pi 5**
 
-**U-Net Image Segmentation**
-Pixel-level human body segmentation.
-- Pretrained ResNet34 encoder (`segmentation_models_pytorch`), trained on a ~2,500-image COCO subset with augmentation
-`PyTorch` `U-Net` `ResNet34` `COCO Dataset`
+**Status:** FYP-I complete and defended ✅ | FYP-II in progress 🚧
 
-**Line-Following / Maze-Solving Robot**
-PID-controlled robot for line following and maze navigation.
-- Arduino Uno + TCRT5000 IR sensors + L298N motor driver
-`Arduino Uno` `PID Control` `TCRT5000` `L298N`
+<img src="https://img.shields.io/badge/YOLOv8-111F68?style=flat-square&logo=yolo&logoColor=white" />
+<img src="https://img.shields.io/badge/Raspberry%20Pi%205-C51A4A?style=flat-square&logo=raspberrypi&logoColor=white" />
+<img src="https://img.shields.io/badge/Facial%20Recognition-6f42c1?style=flat-square" />
+<img src="https://img.shields.io/badge/LLM%20Integration-ff6f00?style=flat-square" />
 
 ---
 
-### Connect with me
-- Email: muhammadzahan12@hotmail.com
-- LinkedIn: [linkedin.com/in/zahan-zahid-1b9684290](https://www.linkedin.com/in/zahan-zahid-1b9684290)
+## 🧪 Other Projects
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🧠 Qwen 2.5 on a Laptop CPU
+Ran a 1.5B language model in **FP16** with no GPU, using OpenVINO GenAI.
+
+- ⚡ About **7.9 tokens/sec**, **834 ms** time to first token
+- 🎛️ Tuned temperature, top_p, top_k and prompt window
+- 🔁 Also tested INT8, INT4 and Gemma 3 1B
+
+<img src="https://img.shields.io/badge/OpenVINO-0071C5?style=flat-square&logo=intel&logoColor=white" />
+<img src="https://img.shields.io/badge/Qwen%202.5-6f42c1?style=flat-square" />
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+
+</td>
+<td width="50%" valign="top">
+
+### 📧 Local AI Email Classifier
+Marks Gmail emails as **IMPORTANT / NOT IMPORTANT** with a short reason. Fully local. *(in progress)*
+
+- 🔐 Read-only Gmail OAuth, decodes sender, subject, body
+- 🌐 Flask API checks urgent keywords first, calls the model only if needed
+
+<img src="https://img.shields.io/badge/Gmail%20API-EA4335?style=flat-square&logo=gmail&logoColor=white" />
+<img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white" />
+<img src="https://img.shields.io/badge/OpenVINO-0071C5?style=flat-square&logo=intel&logoColor=white" />
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🦺 PPE Detection System
+Real-time check for protective equipment compliance.
+
+- 🏋️ Fine-tuned **YOLOv8n** on a 10-class dataset (40 epochs, per-class review, then 10 more)
+- 🖼️ Custom OpenCV pipeline for images and video
+- 🌐 Flask app with upload-and-detect
+
+<img src="https://img.shields.io/badge/YOLOv8-111F68?style=flat-square" />
+<img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" />
+<img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white" />
+
+</td>
+<td width="50%" valign="top">
+
+### 🧍 U-Net Image Segmentation
+Pixel-level human body segmentation.
+
+- 🧱 Pretrained **ResNet34** encoder (`segmentation_models_pytorch`)
+- 📦 Trained on a ~2,500-image COCO subset with augmentation
+
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
+<img src="https://img.shields.io/badge/U--Net-0f9d58?style=flat-square" />
+<img src="https://img.shields.io/badge/ResNet34-ff9800?style=flat-square" />
+
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
+
+### 🏁 Line-Following / Maze-Solving Robot
+PID-controlled robot for line following and maze navigation, built with Arduino Uno, TCRT5000 IR sensors and an L298N motor driver.
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🛠️ Technical Skills
+
+**Languages**
+<p>
+<img src="https://skillicons.dev/icons?i=py,c,cpp,js,matlab&theme=dark" />
+</p>
+
+**Embedded**
+<p>
+<img src="https://skillicons.dev/icons?i=arduino,raspberrypi&theme=dark" />
+<img src="https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white" />
+<img src="https://img.shields.io/badge/PIC18F452-333?style=for-the-badge" />
+<img src="https://img.shields.io/badge/NI%20myRIO%20%2F%20LabVIEW-FFDB00?style=for-the-badge&logoColor=black" />
+</p>
+
+**AI / ML and Local LLMs**
+<p>
+<img src="https://skillicons.dev/icons?i=pytorch,opencv&theme=dark" />
+<img src="https://img.shields.io/badge/OpenVINO-0071C5?style=for-the-badge&logo=intel&logoColor=white" />
+<img src="https://img.shields.io/badge/Ollama-000?style=for-the-badge" />
+</p>
+
+**Web / Backend and Tools**
+<p>
+<img src="https://skillicons.dev/icons?i=flask,sqlite,bootstrap,git,github&theme=dark" />
+</p>
+
+---
+
+## 📫 Connect with me
+<p>
+<a href="mailto:muhammadzahan12@hotmail.com"><img src="https://img.shields.io/badge/Email-0078D4?style=for-the-badge&logo=microsoftoutlook&logoColor=white" /></a>
+<a href="https://www.linkedin.com/in/zahan-zahid-1b9684290"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+</p>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,100:0f2027&height=100&section=footer" width="100%" />
